@@ -1,5 +1,5 @@
 //
-//  RACViewController.h
+//  RACLandingViewController.h
 //  Rivet&Cuff
 //
 //  Created by Chad D Colby on 7/17/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RACViewController : UIViewController
+@interface RACLandingViewController : UIViewController
 
 @end

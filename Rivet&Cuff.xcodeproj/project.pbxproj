@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DA4CF391978381800A65258 /* R&C.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4CF381978381800A65258 /* R&C.png */; };
+		8DA4CF3F197849F700A65258 /* RACLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4CF3E197849F700A65258 /* RACLandingViewController.m */; };
 		8DDF9752197835DF00B51B0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDF9751197835DF00B51B0A /* Foundation.framework */; };
 		8DDF9754197835DF00B51B0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDF9753197835DF00B51B0A /* CoreGraphics.framework */; };
 		8DDF9756197835DF00B51B0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDF9755197835DF00B51B0A /* UIKit.framework */; };
@@ -14,13 +16,13 @@
 		8DDF975E197835DF00B51B0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF975D197835DF00B51B0A /* main.m */; };
 		8DDF9762197835DF00B51B0A /* RACAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF9761197835DF00B51B0A /* RACAppDelegate.m */; };
 		8DDF9765197835DF00B51B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DDF9763197835DF00B51B0A /* Main.storyboard */; };
-		8DDF9768197835DF00B51B0A /* RACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF9767197835DF00B51B0A /* RACViewController.m */; };
 		8DDF976A197835DF00B51B0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DDF9769197835DF00B51B0A /* Images.xcassets */; };
 		8DDF9771197835DF00B51B0A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDF9770197835DF00B51B0A /* XCTest.framework */; };
 		8DDF9772197835DF00B51B0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDF9751197835DF00B51B0A /* Foundation.framework */; };
 		8DDF9773197835DF00B51B0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDF9755197835DF00B51B0A /* UIKit.framework */; };
 		8DDF977B197835DF00B51B0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DDF9779197835DF00B51B0A /* InfoPlist.strings */; };
 		8DDF977D197835DF00B51B0A /* Rivet_CuffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF977C197835DF00B51B0A /* Rivet_CuffTests.m */; };
+		D6D7B4FB7F424CE58D4EB8BE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7C19BF4D664DDD9E612A12 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09EB31C01CB34D9A9555AB31 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		5C7C19BF4D664DDD9E612A12 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA4CF381978381800A65258 /* R&C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R&C.png"; sourceTree = "<group>"; };
+		8DA4CF3D197849F700A65258 /* RACLandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACLandingViewController.h; sourceTree = "<group>"; };
+		8DA4CF3E197849F700A65258 /* RACLandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACLandingViewController.m; sourceTree = "<group>"; };
 		8DDF974E197835DF00B51B0A /* Rivet&Cuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rivet&Cuff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDF9751197835DF00B51B0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DDF9753197835DF00B51B0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +52,6 @@
 		8DDF9760197835DF00B51B0A /* RACAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACAppDelegate.h; sourceTree = "<group>"; };
 		8DDF9761197835DF00B51B0A /* RACAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACAppDelegate.m; sourceTree = "<group>"; };
 		8DDF9764197835DF00B51B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8DDF9766197835DF00B51B0A /* RACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACViewController.h; sourceTree = "<group>"; };
-		8DDF9767197835DF00B51B0A /* RACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACViewController.m; sourceTree = "<group>"; };
 		8DDF9769197835DF00B51B0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8DDF976F197835DF00B51B0A /* Rivet&CuffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rivet&CuffTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDF9770197835DF00B51B0A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,6 +68,7 @@
 				8DDF9754197835DF00B51B0A /* CoreGraphics.framework in Frameworks */,
 				8DDF9756197835DF00B51B0A /* UIKit.framework in Frameworks */,
 				8DDF9752197835DF00B51B0A /* Foundation.framework in Frameworks */,
+				D6D7B4FB7F424CE58D4EB8BE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +92,7 @@
 				8DDF9776197835DF00B51B0A /* Rivet&CuffTests */,
 				8DDF9750197835DF00B51B0A /* Frameworks */,
 				8DDF974F197835DF00B51B0A /* Products */,
+				09EB31C01CB34D9A9555AB31 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +112,7 @@
 				8DDF9753197835DF00B51B0A /* CoreGraphics.framework */,
 				8DDF9755197835DF00B51B0A /* UIKit.framework */,
 				8DDF9770197835DF00B51B0A /* XCTest.framework */,
+				5C7C19BF4D664DDD9E612A12 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,9 +123,10 @@
 				8DDF9760197835DF00B51B0A /* RACAppDelegate.h */,
 				8DDF9761197835DF00B51B0A /* RACAppDelegate.m */,
 				8DDF9763197835DF00B51B0A /* Main.storyboard */,
-				8DDF9766197835DF00B51B0A /* RACViewController.h */,
-				8DDF9767197835DF00B51B0A /* RACViewController.m */,
+				8DA4CF3D197849F700A65258 /* RACLandingViewController.h */,
+				8DA4CF3E197849F700A65258 /* RACLandingViewController.m */,
 				8DDF9769197835DF00B51B0A /* Images.xcassets */,
+				8DA4CF381978381800A65258 /* R&C.png */,
 				8DDF9758197835DF00B51B0A /* Supporting Files */,
 			);
 			path = "Rivet&Cuff";
@@ -159,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DDF9780197835DF00B51B0A /* Build configuration list for PBXNativeTarget "Rivet&Cuff" */;
 			buildPhases = (
+				EEFFF8B3B592418280BC8D1B /* Check Pods Manifest.lock */,
 				8DDF974A197835DF00B51B0A /* Sources */,
 				8DDF974B197835DF00B51B0A /* Frameworks */,
 				8DDF974C197835DF00B51B0A /* Resources */,
+				1F72250F31F64207BF985B2F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DDF976A197835DF00B51B0A /* Images.xcassets in Resources */,
+				8DA4CF391978381800A65258 /* R&C.png in Resources */,
 				8DDF975C197835DF00B51B0A /* InfoPlist.strings in Resources */,
 				8DDF9765197835DF00B51B0A /* Main.storyboard in Resources */,
 			);
@@ -245,13 +257,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F72250F31F64207BF985B2F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEFFF8B3B592418280BC8D1B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8DDF974A197835DF00B51B0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8DDF975E197835DF00B51B0A /* main.m in Sources */,
-				8DDF9768197835DF00B51B0A /* RACViewController.m in Sources */,
+				8DA4CF3F197849F700A65258 /* RACLandingViewController.m in Sources */,
 				8DDF9762197835DF00B51B0A /* RACAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +419,7 @@
 		};
 		8DDF9781197835DF00B51B0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09EB31C01CB34D9A9555AB31 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +433,7 @@
 		};
 		8DDF9782197835DF00B51B0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09EB31C01CB34D9A9555AB31 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +504,7 @@
 				8DDF9782197835DF00B51B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DDF9783197835DF00B51B0A /* Build configuration list for PBXNativeTarget "Rivet&CuffTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +513,7 @@
 				8DDF9785197835DF00B51B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
