@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DDF9752197835DF00B51B0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDF9751197835DF00B51B0A /* Foundation.framework */; };
+		8DDF9754197835DF00B51B0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDF9753197835DF00B51B0A /* CoreGraphics.framework */; };
+		8DDF9756197835DF00B51B0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDF9755197835DF00B51B0A /* UIKit.framework */; };
+		8DDF975C197835DF00B51B0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DDF975A197835DF00B51B0A /* InfoPlist.strings */; };
+		8DDF975E197835DF00B51B0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF975D197835DF00B51B0A /* main.m */; };
+		8DDF9762197835DF00B51B0A /* RACAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF9761197835DF00B51B0A /* RACAppDelegate.m */; };
+		8DDF9765197835DF00B51B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DDF9763197835DF00B51B0A /* Main.storyboard */; };
+		8DDF9768197835DF00B51B0A /* RACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF9767197835DF00B51B0A /* RACViewController.m */; };
+		8DDF976A197835DF00B51B0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DDF9769197835DF00B51B0A /* Images.xcassets */; };
+		8DDF9771197835DF00B51B0A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDF9770197835DF00B51B0A /* XCTest.framework */; };
+		8DDF9772197835DF00B51B0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDF9751197835DF00B51B0A /* Foundation.framework */; };
+		8DDF9773197835DF00B51B0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDF9755197835DF00B51B0A /* UIKit.framework */; };
+		8DDF977B197835DF00B51B0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DDF9779197835DF00B51B0A /* InfoPlist.strings */; };
+		8DDF977D197835DF00B51B0A /* Rivet_CuffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF977C197835DF00B51B0A /* Rivet_CuffTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DDF9774197835DF00B51B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DDF9746197835DF00B51B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DDF974D197835DF00B51B0A;
+			remoteInfo = "Rivet&Cuff";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DDF974E197835DF00B51B0A /* Rivet&Cuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rivet&Cuff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DDF9751197835DF00B51B0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8DDF9753197835DF00B51B0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8DDF9755197835DF00B51B0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8DDF9759197835DF00B51B0A /* Rivet&Cuff-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rivet&Cuff-Info.plist"; sourceTree = "<group>"; };
+		8DDF975B197835DF00B51B0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DDF975D197835DF00B51B0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DDF975F197835DF00B51B0A /* Rivet&Cuff-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rivet&Cuff-Prefix.pch"; sourceTree = "<group>"; };
+		8DDF9760197835DF00B51B0A /* RACAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACAppDelegate.h; sourceTree = "<group>"; };
+		8DDF9761197835DF00B51B0A /* RACAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACAppDelegate.m; sourceTree = "<group>"; };
+		8DDF9764197835DF00B51B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DDF9766197835DF00B51B0A /* RACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACViewController.h; sourceTree = "<group>"; };
+		8DDF9767197835DF00B51B0A /* RACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACViewController.m; sourceTree = "<group>"; };
+		8DDF9769197835DF00B51B0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8DDF976F197835DF00B51B0A /* Rivet&CuffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rivet&CuffTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DDF9770197835DF00B51B0A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8DDF9778197835DF00B51B0A /* Rivet&CuffTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rivet&CuffTests-Info.plist"; sourceTree = "<group>"; };
+		8DDF977A197835DF00B51B0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DDF977C197835DF00B51B0A /* Rivet_CuffTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rivet_CuffTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DDF974B197835DF00B51B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDF9754197835DF00B51B0A /* CoreGraphics.framework in Frameworks */,
+				8DDF9756197835DF00B51B0A /* UIKit.framework in Frameworks */,
+				8DDF9752197835DF00B51B0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDF976C197835DF00B51B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDF9771197835DF00B51B0A /* XCTest.framework in Frameworks */,
+				8DDF9773197835DF00B51B0A /* UIKit.framework in Frameworks */,
+				8DDF9772197835DF00B51B0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DDF9745197835DF00B51B0A = {
+			isa = PBXGroup;
+			children = (
+				8DDF9757197835DF00B51B0A /* Rivet&Cuff */,
+				8DDF9776197835DF00B51B0A /* Rivet&CuffTests */,
+				8DDF9750197835DF00B51B0A /* Frameworks */,
+				8DDF974F197835DF00B51B0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DDF974F197835DF00B51B0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DDF974E197835DF00B51B0A /* Rivet&Cuff.app */,
+				8DDF976F197835DF00B51B0A /* Rivet&CuffTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DDF9750197835DF00B51B0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DDF9751197835DF00B51B0A /* Foundation.framework */,
+				8DDF9753197835DF00B51B0A /* CoreGraphics.framework */,
+				8DDF9755197835DF00B51B0A /* UIKit.framework */,
+				8DDF9770197835DF00B51B0A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DDF9757197835DF00B51B0A /* Rivet&Cuff */ = {
+			isa = PBXGroup;
+			children = (
+				8DDF9760197835DF00B51B0A /* RACAppDelegate.h */,
+				8DDF9761197835DF00B51B0A /* RACAppDelegate.m */,
+				8DDF9763197835DF00B51B0A /* Main.storyboard */,
+				8DDF9766197835DF00B51B0A /* RACViewController.h */,
+				8DDF9767197835DF00B51B0A /* RACViewController.m */,
+				8DDF9769197835DF00B51B0A /* Images.xcassets */,
+				8DDF9758197835DF00B51B0A /* Supporting Files */,
+			);
+			path = "Rivet&Cuff";
+			sourceTree = "<group>";
+		};
+		8DDF9758197835DF00B51B0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DDF9759197835DF00B51B0A /* Rivet&Cuff-Info.plist */,
+				8DDF975A197835DF00B51B0A /* InfoPlist.strings */,
+				8DDF975D197835DF00B51B0A /* main.m */,
+				8DDF975F197835DF00B51B0A /* Rivet&Cuff-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DDF9776197835DF00B51B0A /* Rivet&CuffTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DDF977C197835DF00B51B0A /* Rivet_CuffTests.m */,
+				8DDF9777197835DF00B51B0A /* Supporting Files */,
+			);
+			path = "Rivet&CuffTests";
+			sourceTree = "<group>";
+		};
+		8DDF9777197835DF00B51B0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DDF9778197835DF00B51B0A /* Rivet&CuffTests-Info.plist */,
+				8DDF9779197835DF00B51B0A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DDF974D197835DF00B51B0A /* Rivet&Cuff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DDF9780197835DF00B51B0A /* Build configuration list for PBXNativeTarget "Rivet&Cuff" */;
+			buildPhases = (
+				8DDF974A197835DF00B51B0A /* Sources */,
+				8DDF974B197835DF00B51B0A /* Frameworks */,
+				8DDF974C197835DF00B51B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rivet&Cuff";
+			productName = "Rivet&Cuff";
+			productReference = 8DDF974E197835DF00B51B0A /* Rivet&Cuff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DDF976E197835DF00B51B0A /* Rivet&CuffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DDF9783197835DF00B51B0A /* Build configuration list for PBXNativeTarget "Rivet&CuffTests" */;
+			buildPhases = (
+				8DDF976B197835DF00B51B0A /* Sources */,
+				8DDF976C197835DF00B51B0A /* Frameworks */,
+				8DDF976D197835DF00B51B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DDF9775197835DF00B51B0A /* PBXTargetDependency */,
+			);
+			name = "Rivet&CuffTests";
+			productName = "Rivet&CuffTests";
+			productReference = 8DDF976F197835DF00B51B0A /* Rivet&CuffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DDF9746197835DF00B51B0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RAC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Byte Meets World";
+				TargetAttributes = {
+					8DDF976E197835DF00B51B0A = {
+						TestTargetID = 8DDF974D197835DF00B51B0A;
+					};
+				};
+			};
+			buildConfigurationList = 8DDF9749197835DF00B51B0A /* Build configuration list for PBXProject "Rivet&Cuff" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DDF9745197835DF00B51B0A;
+			productRefGroup = 8DDF974F197835DF00B51B0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DDF974D197835DF00B51B0A /* Rivet&Cuff */,
+				8DDF976E197835DF00B51B0A /* Rivet&CuffTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DDF974C197835DF00B51B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDF976A197835DF00B51B0A /* Images.xcassets in Resources */,
+				8DDF975C197835DF00B51B0A /* InfoPlist.strings in Resources */,
+				8DDF9765197835DF00B51B0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDF976D197835DF00B51B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDF977B197835DF00B51B0A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DDF974A197835DF00B51B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDF975E197835DF00B51B0A /* main.m in Sources */,
+				8DDF9768197835DF00B51B0A /* RACViewController.m in Sources */,
+				8DDF9762197835DF00B51B0A /* RACAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDF976B197835DF00B51B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDF977D197835DF00B51B0A /* Rivet_CuffTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DDF9775197835DF00B51B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DDF974D197835DF00B51B0A /* Rivet&Cuff */;
+			targetProxy = 8DDF9774197835DF00B51B0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DDF975A197835DF00B51B0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DDF975B197835DF00B51B0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8DDF9763197835DF00B51B0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DDF9764197835DF00B51B0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DDF9779197835DF00B51B0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DDF977A197835DF00B51B0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DDF977E197835DF00B51B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DDF977F197835DF00B51B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DDF9781197835DF00B51B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rivet&Cuff/Rivet&Cuff-Prefix.pch";
+				INFOPLIST_FILE = "Rivet&Cuff/Rivet&Cuff-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8DDF9782197835DF00B51B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rivet&Cuff/Rivet&Cuff-Prefix.pch";
+				INFOPLIST_FILE = "Rivet&Cuff/Rivet&Cuff-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8DDF9784197835DF00B51B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rivet&Cuff.app/Rivet&Cuff";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rivet&Cuff/Rivet&Cuff-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rivet&CuffTests/Rivet&CuffTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8DDF9785197835DF00B51B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rivet&Cuff.app/Rivet&Cuff";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rivet&Cuff/Rivet&Cuff-Prefix.pch";
+				INFOPLIST_FILE = "Rivet&CuffTests/Rivet&CuffTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DDF9749197835DF00B51B0A /* Build configuration list for PBXProject "Rivet&Cuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDF977E197835DF00B51B0A /* Debug */,
+				8DDF977F197835DF00B51B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DDF9780197835DF00B51B0A /* Build configuration list for PBXNativeTarget "Rivet&Cuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDF9781197835DF00B51B0A /* Debug */,
+				8DDF9782197835DF00B51B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DDF9783197835DF00B51B0A /* Build configuration list for PBXNativeTarget "Rivet&CuffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDF9784197835DF00B51B0A /* Debug */,
+				8DDF9785197835DF00B51B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DDF9746197835DF00B51B0A /* Project object */;
+}
