@@ -12,10 +12,20 @@
 		8D07C12D1978AA6B00535D63 /* upload.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C1291978AA6B00535D63 /* upload.png */; };
 		8D07C12E1978AA6B00535D63 /* visitUs.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C12A1978AA6B00535D63 /* visitUs.png */; };
 		8D07C12F1978AA6B00535D63 /* web.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C12B1978AA6B00535D63 /* web.png */; };
-		8D07C1311978AAA100535D63 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C1301978AAA100535D63 /* about.png */; };
 		8D07C1341979637700535D63 /* RACRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D07C1331979637700535D63 /* RACRoundedButton.m */; };
 		8D07C13B1979665A00535D63 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C1391979665A00535D63 /* close.png */; };
 		8D07C13C1979665A00535D63 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C13A1979665A00535D63 /* close@2x.png */; };
+		8D07C13E197971FF00535D63 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C13D197971FF00535D63 /* about.png */; };
+		8D07C1441979730100535D63 /* about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C13F1979730100535D63 /* about@2x.png */; };
+		8D07C1451979730100535D63 /* denim101@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C1401979730100535D63 /* denim101@2x.png */; };
+		8D07C1461979730100535D63 /* upload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C1411979730100535D63 /* upload@2x.png */; };
+		8D07C1471979730100535D63 /* visitUs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C1421979730100535D63 /* visitUs@2x.png */; };
+		8D07C1481979730100535D63 /* web@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C1431979730100535D63 /* web@2x.png */; };
+		8D07C14C19797EE900535D63 /* RACAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D07C14B19797EE900535D63 /* RACAboutViewController.m */; };
+		8D07C14F19797EF700535D63 /* RACUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D07C14E19797EF700535D63 /* RACUploadViewController.m */; };
+		8D07C15219797F0400535D63 /* RACDenim101ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D07C15119797F0400535D63 /* RACDenim101ViewController.m */; };
+		8D07C15519797F0E00535D63 /* RACVisitUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D07C15419797F0E00535D63 /* RACVisitUsViewController.m */; };
+		8D07C15819797F1800535D63 /* RACFullSiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D07C15719797F1800535D63 /* RACFullSiteViewController.m */; };
 		8D74ACB619786A22005B6C50 /* RACMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D74ACB519786A22005B6C50 /* RACMainPageViewController.m */; };
 		8DA4CF391978381800A65258 /* R&C.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4CF381978381800A65258 /* R&C.png */; };
 		8DA4CF3F197849F700A65258 /* RACLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4CF3E197849F700A65258 /* RACLandingViewController.m */; };
@@ -55,11 +65,26 @@
 		8D07C1291978AA6B00535D63 /* upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upload.png; sourceTree = "<group>"; };
 		8D07C12A1978AA6B00535D63 /* visitUs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visitUs.png; sourceTree = "<group>"; };
 		8D07C12B1978AA6B00535D63 /* web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web.png; sourceTree = "<group>"; };
-		8D07C1301978AAA100535D63 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
 		8D07C1321979637700535D63 /* RACRoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACRoundedButton.h; sourceTree = "<group>"; };
 		8D07C1331979637700535D63 /* RACRoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACRoundedButton.m; sourceTree = "<group>"; };
 		8D07C1391979665A00535D63 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		8D07C13A1979665A00535D63 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		8D07C13D197971FF00535D63 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		8D07C13F1979730100535D63 /* about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about@2x.png"; sourceTree = "<group>"; };
+		8D07C1401979730100535D63 /* denim101@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "denim101@2x.png"; sourceTree = "<group>"; };
+		8D07C1411979730100535D63 /* upload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upload@2x.png"; sourceTree = "<group>"; };
+		8D07C1421979730100535D63 /* visitUs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visitUs@2x.png"; sourceTree = "<group>"; };
+		8D07C1431979730100535D63 /* web@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "web@2x.png"; sourceTree = "<group>"; };
+		8D07C14A19797EE900535D63 /* RACAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACAboutViewController.h; sourceTree = "<group>"; };
+		8D07C14B19797EE900535D63 /* RACAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACAboutViewController.m; sourceTree = "<group>"; };
+		8D07C14D19797EF700535D63 /* RACUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACUploadViewController.h; sourceTree = "<group>"; };
+		8D07C14E19797EF700535D63 /* RACUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACUploadViewController.m; sourceTree = "<group>"; };
+		8D07C15019797F0400535D63 /* RACDenim101ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACDenim101ViewController.h; sourceTree = "<group>"; };
+		8D07C15119797F0400535D63 /* RACDenim101ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACDenim101ViewController.m; sourceTree = "<group>"; };
+		8D07C15319797F0E00535D63 /* RACVisitUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACVisitUsViewController.h; sourceTree = "<group>"; };
+		8D07C15419797F0E00535D63 /* RACVisitUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACVisitUsViewController.m; sourceTree = "<group>"; };
+		8D07C15619797F1800535D63 /* RACFullSiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACFullSiteViewController.h; sourceTree = "<group>"; };
+		8D07C15719797F1800535D63 /* RACFullSiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACFullSiteViewController.m; sourceTree = "<group>"; };
 		8D74ACB419786A22005B6C50 /* RACMainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACMainPageViewController.h; sourceTree = "<group>"; };
 		8D74ACB519786A22005B6C50 /* RACMainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACMainPageViewController.m; sourceTree = "<group>"; };
 		8DA4CF381978381800A65258 /* R&C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R&C.png"; sourceTree = "<group>"; };
@@ -110,6 +135,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D07C1491979737700535D63 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8DA4CF381978381800A65258 /* R&C.png */,
+				8D07C13F1979730100535D63 /* about@2x.png */,
+				8D07C1401979730100535D63 /* denim101@2x.png */,
+				8D07C1411979730100535D63 /* upload@2x.png */,
+				8D07C1421979730100535D63 /* visitUs@2x.png */,
+				8D07C1431979730100535D63 /* web@2x.png */,
+				8D07C13D197971FF00535D63 /* about.png */,
+				8D07C1391979665A00535D63 /* close.png */,
+				8D07C13A1979665A00535D63 /* close@2x.png */,
+				8D07C1281978AA6B00535D63 /* denim101.png */,
+				8D07C1291978AA6B00535D63 /* upload.png */,
+				8D07C12A1978AA6B00535D63 /* visitUs.png */,
+				8D07C12B1978AA6B00535D63 /* web.png */,
+				8DB2257B1978908F00299BF4 /* background.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8D07C15919797F8C00535D63 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D07C14A19797EE900535D63 /* RACAboutViewController.h */,
+				8D07C14B19797EE900535D63 /* RACAboutViewController.m */,
+				8D07C14D19797EF700535D63 /* RACUploadViewController.h */,
+				8D07C14E19797EF700535D63 /* RACUploadViewController.m */,
+				8D07C15019797F0400535D63 /* RACDenim101ViewController.h */,
+				8D07C15119797F0400535D63 /* RACDenim101ViewController.m */,
+				8D07C15319797F0E00535D63 /* RACVisitUsViewController.h */,
+				8D07C15419797F0E00535D63 /* RACVisitUsViewController.m */,
+				8D07C15619797F1800535D63 /* RACFullSiteViewController.h */,
+				8D07C15719797F1800535D63 /* RACFullSiteViewController.m */,
+				8DA4CF3D197849F700A65258 /* RACLandingViewController.h */,
+				8DA4CF3E197849F700A65258 /* RACLandingViewController.m */,
+				8D74ACB419786A22005B6C50 /* RACMainPageViewController.h */,
+				8D74ACB519786A22005B6C50 /* RACMainPageViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		8DDF9745197835DF00B51B0A = {
 			isa = PBXGroup;
 			children = (
@@ -145,26 +212,14 @@
 		8DDF9757197835DF00B51B0A /* Rivet&Cuff */ = {
 			isa = PBXGroup;
 			children = (
-				8D07C1391979665A00535D63 /* close.png */,
-				8D07C13A1979665A00535D63 /* close@2x.png */,
-				8D07C1301978AAA100535D63 /* about.png */,
-				8D07C1281978AA6B00535D63 /* denim101.png */,
-				8D07C1291978AA6B00535D63 /* upload.png */,
-				8D07C12A1978AA6B00535D63 /* visitUs.png */,
-				8D07C12B1978AA6B00535D63 /* web.png */,
-				8DB2257B1978908F00299BF4 /* background.png */,
 				8DDF9760197835DF00B51B0A /* RACAppDelegate.h */,
 				8DDF9761197835DF00B51B0A /* RACAppDelegate.m */,
 				8DDF9763197835DF00B51B0A /* Main.storyboard */,
-				8DA4CF3D197849F700A65258 /* RACLandingViewController.h */,
-				8DA4CF3E197849F700A65258 /* RACLandingViewController.m */,
-				8D74ACB419786A22005B6C50 /* RACMainPageViewController.h */,
-				8D74ACB519786A22005B6C50 /* RACMainPageViewController.m */,
 				8D07C12319789C2200535D63 /* RACMenuCell.h */,
 				8D07C12419789C2200535D63 /* RACMenuCell.m */,
+				8D07C15919797F8C00535D63 /* View Controllers */,
 				8D07C1321979637700535D63 /* RACRoundedButton.h */,
 				8D07C1331979637700535D63 /* RACRoundedButton.m */,
-				8DA4CF381978381800A65258 /* R&C.png */,
 				8DDF9769197835DF00B51B0A /* Images.xcassets */,
 				8DDF9758197835DF00B51B0A /* Supporting Files */,
 			);
@@ -175,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				8DDF9759197835DF00B51B0A /* Rivet&Cuff-Info.plist */,
+				8D07C1491979737700535D63 /* Images */,
 				8DDF975A197835DF00B51B0A /* InfoPlist.strings */,
 				8DDF975D197835DF00B51B0A /* main.m */,
 				8DDF975F197835DF00B51B0A /* Rivet&Cuff-Prefix.pch */,
@@ -281,16 +337,21 @@
 			files = (
 				8DDF976A197835DF00B51B0A /* Images.xcassets in Resources */,
 				8DB2257C1978908F00299BF4 /* background.png in Resources */,
+				8D07C1471979730100535D63 /* visitUs@2x.png in Resources */,
 				8D07C12D1978AA6B00535D63 /* upload.png in Resources */,
 				8D07C13C1979665A00535D63 /* close@2x.png in Resources */,
 				8D07C12F1978AA6B00535D63 /* web.png in Resources */,
 				8DA4CF391978381800A65258 /* R&C.png in Resources */,
+				8D07C1481979730100535D63 /* web@2x.png in Resources */,
 				8D07C13B1979665A00535D63 /* close.png in Resources */,
-				8D07C1311978AAA100535D63 /* about.png in Resources */,
+				8D07C1441979730100535D63 /* about@2x.png in Resources */,
+				8D07C1461979730100535D63 /* upload@2x.png in Resources */,
 				8DDF975C197835DF00B51B0A /* InfoPlist.strings in Resources */,
+				8D07C1451979730100535D63 /* denim101@2x.png in Resources */,
 				8D07C12E1978AA6B00535D63 /* visitUs.png in Resources */,
 				8D07C12C1978AA6B00535D63 /* denim101.png in Resources */,
 				8DDF9765197835DF00B51B0A /* Main.storyboard in Resources */,
+				8D07C13E197971FF00535D63 /* about.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,8 +406,13 @@
 				8DDF975E197835DF00B51B0A /* main.m in Sources */,
 				8D07C12519789C2200535D63 /* RACMenuCell.m in Sources */,
 				8D07C1341979637700535D63 /* RACRoundedButton.m in Sources */,
+				8D07C15519797F0E00535D63 /* RACVisitUsViewController.m in Sources */,
+				8D07C14C19797EE900535D63 /* RACAboutViewController.m in Sources */,
+				8D07C15219797F0400535D63 /* RACDenim101ViewController.m in Sources */,
 				8D74ACB619786A22005B6C50 /* RACMainPageViewController.m in Sources */,
 				8DA4CF3F197849F700A65258 /* RACLandingViewController.m in Sources */,
+				8D07C15819797F1800535D63 /* RACFullSiteViewController.m in Sources */,
+				8D07C14F19797EF700535D63 /* RACUploadViewController.m in Sources */,
 				8DDF9762197835DF00B51B0A /* RACAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
