@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D07C12519789C2200535D63 /* RACMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D07C12419789C2200535D63 /* RACMenuCell.m */; };
+		8D07C12C1978AA6B00535D63 /* denim101.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C1281978AA6B00535D63 /* denim101.png */; };
+		8D07C12D1978AA6B00535D63 /* upload.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C1291978AA6B00535D63 /* upload.png */; };
+		8D07C12E1978AA6B00535D63 /* visitUs.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C12A1978AA6B00535D63 /* visitUs.png */; };
+		8D07C12F1978AA6B00535D63 /* web.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C12B1978AA6B00535D63 /* web.png */; };
+		8D07C1311978AAA100535D63 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C1301978AAA100535D63 /* about.png */; };
+		8D07C1341979637700535D63 /* RACRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D07C1331979637700535D63 /* RACRoundedButton.m */; };
+		8D07C13B1979665A00535D63 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C1391979665A00535D63 /* close.png */; };
+		8D07C13C1979665A00535D63 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D07C13A1979665A00535D63 /* close@2x.png */; };
+		8D74ACB619786A22005B6C50 /* RACMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D74ACB519786A22005B6C50 /* RACMainPageViewController.m */; };
 		8DA4CF391978381800A65258 /* R&C.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4CF381978381800A65258 /* R&C.png */; };
 		8DA4CF3F197849F700A65258 /* RACLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4CF3E197849F700A65258 /* RACLandingViewController.m */; };
+		8DB2257C1978908F00299BF4 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DB2257B1978908F00299BF4 /* background.png */; };
 		8DDF9752197835DF00B51B0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDF9751197835DF00B51B0A /* Foundation.framework */; };
 		8DDF9754197835DF00B51B0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDF9753197835DF00B51B0A /* CoreGraphics.framework */; };
 		8DDF9756197835DF00B51B0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDF9755197835DF00B51B0A /* UIKit.framework */; };
@@ -38,9 +49,23 @@
 /* Begin PBXFileReference section */
 		09EB31C01CB34D9A9555AB31 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		5C7C19BF4D664DDD9E612A12 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D07C12319789C2200535D63 /* RACMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACMenuCell.h; sourceTree = "<group>"; };
+		8D07C12419789C2200535D63 /* RACMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACMenuCell.m; sourceTree = "<group>"; };
+		8D07C1281978AA6B00535D63 /* denim101.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = denim101.png; sourceTree = "<group>"; };
+		8D07C1291978AA6B00535D63 /* upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upload.png; sourceTree = "<group>"; };
+		8D07C12A1978AA6B00535D63 /* visitUs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visitUs.png; sourceTree = "<group>"; };
+		8D07C12B1978AA6B00535D63 /* web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web.png; sourceTree = "<group>"; };
+		8D07C1301978AAA100535D63 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		8D07C1321979637700535D63 /* RACRoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACRoundedButton.h; sourceTree = "<group>"; };
+		8D07C1331979637700535D63 /* RACRoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACRoundedButton.m; sourceTree = "<group>"; };
+		8D07C1391979665A00535D63 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		8D07C13A1979665A00535D63 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		8D74ACB419786A22005B6C50 /* RACMainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACMainPageViewController.h; sourceTree = "<group>"; };
+		8D74ACB519786A22005B6C50 /* RACMainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACMainPageViewController.m; sourceTree = "<group>"; };
 		8DA4CF381978381800A65258 /* R&C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R&C.png"; sourceTree = "<group>"; };
 		8DA4CF3D197849F700A65258 /* RACLandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACLandingViewController.h; sourceTree = "<group>"; };
 		8DA4CF3E197849F700A65258 /* RACLandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACLandingViewController.m; sourceTree = "<group>"; };
+		8DB2257B1978908F00299BF4 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		8DDF974E197835DF00B51B0A /* Rivet&Cuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rivet&Cuff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDF9751197835DF00B51B0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DDF9753197835DF00B51B0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,13 +145,27 @@
 		8DDF9757197835DF00B51B0A /* Rivet&Cuff */ = {
 			isa = PBXGroup;
 			children = (
+				8D07C1391979665A00535D63 /* close.png */,
+				8D07C13A1979665A00535D63 /* close@2x.png */,
+				8D07C1301978AAA100535D63 /* about.png */,
+				8D07C1281978AA6B00535D63 /* denim101.png */,
+				8D07C1291978AA6B00535D63 /* upload.png */,
+				8D07C12A1978AA6B00535D63 /* visitUs.png */,
+				8D07C12B1978AA6B00535D63 /* web.png */,
+				8DB2257B1978908F00299BF4 /* background.png */,
 				8DDF9760197835DF00B51B0A /* RACAppDelegate.h */,
 				8DDF9761197835DF00B51B0A /* RACAppDelegate.m */,
 				8DDF9763197835DF00B51B0A /* Main.storyboard */,
 				8DA4CF3D197849F700A65258 /* RACLandingViewController.h */,
 				8DA4CF3E197849F700A65258 /* RACLandingViewController.m */,
-				8DDF9769197835DF00B51B0A /* Images.xcassets */,
+				8D74ACB419786A22005B6C50 /* RACMainPageViewController.h */,
+				8D74ACB519786A22005B6C50 /* RACMainPageViewController.m */,
+				8D07C12319789C2200535D63 /* RACMenuCell.h */,
+				8D07C12419789C2200535D63 /* RACMenuCell.m */,
+				8D07C1321979637700535D63 /* RACRoundedButton.h */,
+				8D07C1331979637700535D63 /* RACRoundedButton.m */,
 				8DA4CF381978381800A65258 /* R&C.png */,
+				8DDF9769197835DF00B51B0A /* Images.xcassets */,
 				8DDF9758197835DF00B51B0A /* Supporting Files */,
 			);
 			path = "Rivet&Cuff";
@@ -241,8 +280,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DDF976A197835DF00B51B0A /* Images.xcassets in Resources */,
+				8DB2257C1978908F00299BF4 /* background.png in Resources */,
+				8D07C12D1978AA6B00535D63 /* upload.png in Resources */,
+				8D07C13C1979665A00535D63 /* close@2x.png in Resources */,
+				8D07C12F1978AA6B00535D63 /* web.png in Resources */,
 				8DA4CF391978381800A65258 /* R&C.png in Resources */,
+				8D07C13B1979665A00535D63 /* close.png in Resources */,
+				8D07C1311978AAA100535D63 /* about.png in Resources */,
 				8DDF975C197835DF00B51B0A /* InfoPlist.strings in Resources */,
+				8D07C12E1978AA6B00535D63 /* visitUs.png in Resources */,
+				8D07C12C1978AA6B00535D63 /* denim101.png in Resources */,
 				8DDF9765197835DF00B51B0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +343,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DDF975E197835DF00B51B0A /* main.m in Sources */,
+				8D07C12519789C2200535D63 /* RACMenuCell.m in Sources */,
+				8D07C1341979637700535D63 /* RACRoundedButton.m in Sources */,
+				8D74ACB619786A22005B6C50 /* RACMainPageViewController.m in Sources */,
 				8DA4CF3F197849F700A65258 /* RACLandingViewController.m in Sources */,
 				8DDF9762197835DF00B51B0A /* RACAppDelegate.m in Sources */,
 			);
